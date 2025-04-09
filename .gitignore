@@ -1,8 +1,36 @@
+# VS Code config
 .vscode/
+
+# Virtual environments
 .venv/
 __pycache__/
 *.py[cod]
+
+# Logs, temporary files
 *.log
 *.tmp
+*.bak
+*.swp
+
+# Environment variables
 .env
+.env.*
+
+# Jupyter & notebooks
 *.ipynb_checkpoints
+*.ipynb
+
+# PyInstaller build outputs
+build/
+dist/
+*.spec
+
+# Platform-specific app bundles
+*.app/
+*.exe
+*.msi
+*.pkg
+*.dmg
+
+# Mac metadata
+.DS_Store
