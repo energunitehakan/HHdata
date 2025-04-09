@@ -1,0 +1,11 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: 0001.Max Demand Calculator
+spec:
+  template:
+    spec:
+      containers:
+      - image: gcr.io/YOUR_PROJECT_ID/0001.Max Demand Calculator:latest
+        ports:
+        - containerPort: 8080

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 0001.Max Demand Calculator-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: 0001.Max Demand Calculator
+  template:
+    metadata:
+      labels:
+        app: 0001.Max Demand Calculator
+    spec:
+      containers:
+      - name: 0001.Max Demand Calculator
+        image: gcr.io/YOUR_PROJECT_ID/0001.Max Demand Calculator:latest
+        ports:
+        - containerPort: 80
