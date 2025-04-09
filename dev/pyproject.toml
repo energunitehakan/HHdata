@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "max-demand-calculator"
+version = "0.1.0"
+description = "Automation tool for energy demand analysis"
+authors = ["Yoshi Yathurshan <yathu.yoshi@googlemail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.10.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.2.0"
+black = "^25.1.0"
+ruff = "^0.11.4"
+ipykernel = "^6.29.5"
+pytest = "^8.3.5"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+sqlalchemy = "^2.0.40"
+psycopg2-binary = "^2.9.10"
+streamlit = "^1.44.1"
+dash = "^3.0.2"
+jupyter = "^1.1.1"
+pyinstaller = { version = "^6.12.0", python = "<3.14" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
