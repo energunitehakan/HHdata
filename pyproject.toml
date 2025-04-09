@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "0001-max demand calculator"
+name = "max-demand-calculator"
 version = "0.1.0"
-description = ""
+description = "Automation tool for energy demand analysis"
 authors = ["Yoshi Yathurshan <yathu.yoshi@googlemail.com>"]
 readme = "README.md"
-packages = [{include = "0001"}]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
