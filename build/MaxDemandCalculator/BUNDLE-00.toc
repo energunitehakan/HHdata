@@ -1,0 +1,5 @@
+([('MaxDemandCalculator',
+   '/Users/arumugamyathurshan/Dropbox/01.Yoshi Life Admin/0008.Yoshi - '
+   'Programming/0002.Programming/0003.Energunite/0001.Python Projects/0001.Max '
+   'Demand Calculator/dist/MaxDemandCalculator',
+   'EXECUTABLE')],)
