@@ -31,7 +31,6 @@ from c_season import apply_season
 from d_calculator import calculate_rolling_max, summarize_top_days, seasonal_summary
 
 st.set_page_config(page_title="Single Meter Max Demand Calculator", layout="wide")
-st.image("assets/ener_logo.png", width=300)
 st.title("Single Meter Max Demand Calculator")
 st.markdown("Upload a CSV file for a single meter to analyse the top 5 days and seasonal max 1-hour electricity demand.")
 
